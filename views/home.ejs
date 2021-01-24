@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>OAuth</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <% if (user) { %>
+                    <a href="/auth/logout">Log out</a>
+                    <% } else {%>
+                    <a href="/auth/login">Login</a>
+                    <% } %>
+                    <a href="/">Home</a>
+                    <a href="/profile">Profile</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>OAuth</h1>
+            <h2>Home Page</h2>
+        </header>
+        <main>
+            Oauth Sample App
+        </main>
+    </body>
+</html>
